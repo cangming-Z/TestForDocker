@@ -1,6 +1,8 @@
 1、生成requirements.txt
+
 （1）安装pipreqs依赖
   pip install pipreqs
+  
 （2）生成文件
   项目根目录下执行
   pipreqs ./
@@ -9,4 +11,8 @@
   
 2、docker build
 进入项目根目录，打开cmd，
-docker build -t 镜像名称 .
+docker build -t IMAGE:Tag .
+
+docker images查看生成的镜像
+
+docker run 镜像名称
